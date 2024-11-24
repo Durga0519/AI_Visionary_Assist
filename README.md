@@ -36,33 +36,26 @@ Prerequisites
 Python 3.8 or higher installed on your system.
 Tesseract OCR installed. Follow the Tesseract installation guide.
 A valid Google Generative AI API Key. Add it to a .env file in the root directory of the project.
-Installation Steps
-Clone the repository:
+# Installation Steps
 
-bash
-Copy code
+### Clone the repository:
+```bash
 git clone https://github.com/your-username/visionary-ai.git
 cd visionary-ai
+
 Create a virtual environment:
-
-bash
-Copy code
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
 Install the required dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
+
 Add your API key to a .env file:
-
-plaintext
-Copy code
 GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
-Run the application:
 
-bash
-Copy code
+Run the application:
 streamlit run app.py
 Access the app in your browser at http://localhost:8501.
 
