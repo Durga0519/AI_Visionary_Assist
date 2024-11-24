@@ -41,21 +41,25 @@ A valid Google Generative AI API Key. Add it to a .env file in the root director
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/visionary-ai.git
-cd visionary-ai```
+cd visionary-ai
 
 Create a virtual environment:
+```bash
 python -m venv venv
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 
 Install the required dependencies:
+```bash
 pip install -r requirements.txt
 
 Add your API key to a .env file:
+```bash
 GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
 
 Run the application:
+```bash
 streamlit run app.py
 Access the app in your browser at http://localhost:8501.
 
