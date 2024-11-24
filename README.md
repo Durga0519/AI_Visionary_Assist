@@ -37,13 +37,12 @@ Python 3.8 or higher installed on your system.
 Tesseract OCR installed. Follow the Tesseract installation guide.
 A valid Google Generative AI API Key. Add it to a .env file in the root directory of the project.
 
-```markdown
-# Installation Steps
 
-### Clone the repository:
+# Installation Steps
+Clone the repository:
+```bash
 git clone https://github.com/your-username/visionary-ai.git
 cd visionary-ai
-```
 
 ---
 
