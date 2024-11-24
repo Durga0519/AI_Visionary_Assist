@@ -41,7 +41,7 @@ A valid Google Generative AI API Key. Add it to a .env file in the root director
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/visionary-ai.git
-cd visionary-ai
+cd visionary-ai```
 
 Create a virtual environment:
 python -m venv venv
