@@ -36,56 +36,92 @@ Prerequisites
 Python 3.8 or higher installed on your system.
 Tesseract OCR installed. Follow the Tesseract installation guide.
 A valid Google Generative AI API Key. Add it to a .env file in the root directory of the project.
+
+Ah, I see! You want **separate code blocks** for specific commands and only **highlight** relevant headings. Here's how you can format it in Markdown:
+
+```markdown
 # Installation Steps
 
 ### Clone the repository:
 ```bash
 git clone https://github.com/your-username/visionary-ai.git
 cd visionary-ai
+```
 
-Create a virtual environment:
+---
+
+### Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
+```
 
-Install the required dependencies:
+---
+
+### Install the required dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
-Add your API key to a .env file:
-```bash
+---
+
+### Add your API key to a `.env` file:
+```plaintext
 GOOGLE_GENERATIVE_AI_API_KEY=your_api_key_here
+```
 
-Run the application:
+---
+
+### Run the application:
 ```bash
 streamlit run app.py
-Access the app in your browser at http://localhost:8501.
+```
 
-📸 Screenshots
-🎥 Cinematic Intro
+Access the app in your browser at [http://localhost:8501](http://localhost:8501).
+
+---
+
+## 📸 Screenshots
+
+---
+
+## 🎥 Cinematic Intro
 The app starts with a Netflix-style animated title for a sleek, professional look.
+
+---
 
 # 🖼️ Unified Image Upload
 Upload an image once and use it across all features seamlessly.
 
+---
+
 # 🎯 Intuitive Feature Selection
 Easily switch between scene description, text extraction, and text-to-speech conversion using feature-specific buttons.
 
+---
+
 # 📝 Usage Scenarios
-Visually Impaired Users: Get a detailed understanding of your surroundings through AI-generated image descriptions.
-Text Extraction: Extract critical information from images, documents, or signs.
-Speech Playback: Listen to extracted text for improved accessibility and convenience.
+
+- **Visually Impaired Users**: Get a detailed understanding of your surroundings through AI-generated image descriptions.
+- **Text Extraction**: Extract critical information from images, documents, or signs.
+- **Speech Playback**: Listen to extracted text for improved accessibility and convenience.
+
+---
 
 # 🤝 Contributions
 Contributions, issues, and feature requests are welcome!
+
 Feel free to open an issue or submit a pull request to improve the app.
+
+---
 
 # 🌟 Acknowledgements
 Special thanks to:
 
-Google Generative AI for scene description capabilities.
-Tesseract OCR for text recognition.
-gTTS for enabling seamless text-to-speech conversion.
-Let Visionary AI help you see the world differently! 👓✨
+- **Google Generative AI** for scene description capabilities.
+- **Tesseract OCR** for text recognition.
+- **gTTS** for enabling seamless text-to-speech conversion.
+
+---
